@@ -1,0 +1,9 @@
+{
+	"provider": ["IBM"], 
+	"name":  "DO for DSX Nurses example" ,
+	"model": [ "CPLEX" ],
+	"development": [ "Python" ],
+	"category": [ {"DOforDSX":["DO for DSX"]} ],
+	"industry": [ "Health" ],
+	"abstract": "A simple DO for DSX example showing basic functionnality about model builder, dashboard, etc."
+}
