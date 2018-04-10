@@ -5,5 +5,5 @@
 	"development": [ "Python" ],
 	"category": [ {"DOforDSX":["DO for DSX"]} ],
 	"industry": [ "Health" ],
-	"abstract": "A simple DO for DSX example showing basic functionnality about model builder, dashboard, etc."
+	"abstract": "According to the expected demand for different hospital departments, nurses are assigned to shifts."
 }
