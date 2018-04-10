@@ -1,0 +1,150 @@
+[2018-04-10T12:47:28Z, INFO] #nurses = 32
+[2018-04-10T12:47:28Z, INFO] #shifts = 36
+[2018-04-10T12:47:28Z, INFO] #vacations = 59
+[2018-04-10T12:47:28Z, INFO] * system is: Linux 64bit
+[2018-04-10T12:47:28Z, INFO] * Python is present, version is 2.7.13
+[2018-04-10T12:47:28Z, INFO] * docplex is present, version is (2, 5, 92)
+[2018-04-10T12:47:28Z, INFO] * CPLEX wrapper is present, version is 12.8.0.0, located at: /opt/ibm/lib/cplex/2.7/x86-64_linux
+[2018-04-10T12:47:29Z, INFO] #incompatible shift constraints: 320
+[2018-04-10T12:47:29Z, INFO] # vacation forbids: 0 assignments
+[2018-04-10T12:47:29Z, INFO] Model: nurses
+[2018-04-10T12:47:29Z, INFO]  - number of variables: 1184
+[2018-04-10T12:47:29Z, INFO]    - binary=1152, integer=0, continuous=32
+[2018-04-10T12:47:29Z, INFO]  - number of constraints: 352
+[2018-04-10T12:47:29Z, INFO]    - linear=352
+[2018-04-10T12:47:29Z, INFO]  - parameters: defaults
+[2018-04-10T12:47:29Z, INFO] Model: nurses
+[2018-04-10T12:47:29Z, INFO]  - number of variables: 1184
+[2018-04-10T12:47:29Z, INFO]    - binary=1152, integer=0, continuous=32
+[2018-04-10T12:47:29Z, INFO]  - number of constraints: 388
+[2018-04-10T12:47:29Z, INFO]    - linear=388
+[2018-04-10T12:47:29Z, INFO]  - parameters: defaults
+[2018-04-10T12:47:29Z, INFO] WARNING: Number of workers has been reduced to 1 to comply with platform limitations.
+[2018-04-10T12:47:29Z, INFO] CPXPARAM_Read_DataCheck                          1
+[2018-04-10T12:47:29Z, INFO] CPXPARAM_Threads                                 1
+[2018-04-10T12:47:29Z, INFO] CPXPARAM_MIP_Tolerances_MIPGap                   1.0000000000000001e-05
+[2018-04-10T12:47:29Z, INFO] Tried aggregator 1 time.
+[2018-04-10T12:47:29Z, INFO] Reduced MIP has 388 rows, 1184 columns, and 2976 nonzeros.
+[2018-04-10T12:47:29Z, INFO] Reduced MIP has 1152 binaries, 0 generals, 0 SOSs, and 0 indicators.
+[2018-04-10T12:47:29Z, INFO] Presolve time = 0.00 sec. (1.50 ticks)
+[2018-04-10T12:47:29Z, INFO] Found incumbent of value 26912.000000 after 0.01 sec. (5.42 ticks)
+[2018-04-10T12:47:29Z, INFO] Probing time = 0.00 sec. (0.54 ticks)
+[2018-04-10T12:47:29Z, INFO] Tried aggregator 1 time.
+[2018-04-10T12:47:29Z, INFO] Reduced MIP has 388 rows, 1184 columns, and 2976 nonzeros.
+[2018-04-10T12:47:29Z, INFO] Reduced MIP has 1152 binaries, 32 generals, 0 SOSs, and 0 indicators.
+[2018-04-10T12:47:29Z, INFO] Presolve time = 0.00 sec. (2.87 ticks)
+[2018-04-10T12:47:29Z, INFO] Probing time = 0.00 sec. (0.54 ticks)
+[2018-04-10T12:47:29Z, INFO] Clique table members: 320.
+[2018-04-10T12:47:29Z, INFO] MIP emphasis: balance optimality and feasibility.
+[2018-04-10T12:47:29Z, INFO] MIP search method: dynamic search.
+[2018-04-10T12:47:29Z, INFO] Parallel mode: none, using 1 thread.
+[2018-04-10T12:47:29Z, INFO] Root relaxation solution time = 0.01 sec. (4.25 ticks)
+[2018-04-10T12:47:29Z, INFO] 
+[2018-04-10T12:47:29Z, INFO]         Nodes                                         Cuts/
+[2018-04-10T12:47:29Z, INFO]    Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+[2018-04-10T12:47:29Z, INFO] *     0+    0                        26912.0000        0.0000           100.00%
+[2018-04-10T12:47:29Z, INFO]       0     0    25032.0000    32    26912.0000    25032.0000      477    6.99%
+[2018-04-10T12:47:29Z, INFO]       0     0    25032.0000    35    26912.0000      Cuts: 73      566    6.99%
+[2018-04-10T12:47:30Z, INFO]       0     0    25032.0000    30    26912.0000      Cuts: 55      626    6.99%
+[2018-04-10T12:47:30Z, INFO]       0     0    25032.0000    28    26912.0000      Cuts: 57      710    6.99%
+[2018-04-10T12:47:30Z, INFO] *     0+    0                        25544.0000    25032.0000             2.00%
+[2018-04-10T12:47:30Z, INFO] *     0+    0                        25378.0000    25032.0000             1.36%
+[2018-04-10T12:47:30Z, INFO] *     0+    0                        25324.0000    25032.0000             1.15%
+[2018-04-10T12:47:30Z, INFO] *     0+    0                        25276.0000    25032.0000             0.97%
+[2018-04-10T12:47:30Z, INFO] *     0+    0                        25246.0000    25032.0000             0.85%
+[2018-04-10T12:47:30Z, INFO]       0     2    25032.0000    14    25246.0000    25032.0000      710    0.85%
+[2018-04-10T12:47:30Z, INFO] Elapsed time = 0.22 sec. (97.62 ticks, tree = 0.01 MB
+[2018-04-10T12:47:30Z, INFO] , solutions = 6
+[2018-04-10T12:47:30Z, INFO] )
+[2018-04-10T12:47:31Z, INFO] *   130+  130                        25220.0000    25032.0000             0.75%
+[2018-04-10T12:47:35Z, INFO]     362   364    25032.0000    10    25220.0000    25032.0000     6097    0.75%
+[2018-04-10T12:47:35Z, INFO] *   380+  380                        25190.0000    25032.0000             0.63%
+[2018-04-10T12:47:37Z, INFO] *   506+  506                        25138.0000    25032.0000             0.42%
+[2018-04-10T12:47:37Z, INFO] *   507+  505                        25102.0000    25032.0000             0.28%
+[2018-04-10T12:47:37Z, INFO] *   507+  505                        25072.0000    25032.0000             0.16%
+[2018-04-10T12:47:37Z, INFO] *   507+    0                        25032.0000    25032.0000             0.00%
+[2018-04-10T12:47:37Z, INFO] GUB cover cuts applied:  12
+[2018-04-10T12:47:37Z, INFO] Cover cuts applied:  2
+[2018-04-10T12:47:37Z, INFO] Flow cuts applied:  10
+[2018-04-10T12:47:37Z, INFO] Mixed integer rounding cuts applied:  11
+[2018-04-10T12:47:37Z, INFO] Zero-half cuts applied:  13
+[2018-04-10T12:47:37Z, INFO] Lift and project cuts applied:  7
+[2018-04-10T12:47:37Z, INFO] Gomory fractional cuts applied:  2
+[2018-04-10T12:47:37Z, INFO] 
+[2018-04-10T12:47:37Z, INFO] Root node processing (before b&c):
+[2018-04-10T12:47:37Z, INFO]   Real time             =    0.22 sec. (97.62 ticks)
+[2018-04-10T12:47:37Z, INFO] Sequential b&c:
+[2018-04-10T12:47:37Z, INFO]   Real time             =    7.23 sec. (396.59 ticks)
+[2018-04-10T12:47:37Z, INFO]                           ------------
+[2018-04-10T12:47:37Z, INFO] Total (root+branch&cut) =    7.45 sec. (494.21 ticks)
+[2018-04-10T12:47:37Z, INFO] * model nurses solved with objective = 25032.000
+[2018-04-10T12:47:37Z, INFO] *  KPI: Total salary cost  = 25032.000
+[2018-04-10T12:47:37Z, INFO] *  KPI: Total worked hours = 1146.000
+[2018-04-10T12:47:37Z, INFO]                   kpi    value
+[2018-04-10T12:47:37Z, INFO] 0   Total salary cost  25032.0
+[2018-04-10T12:47:37Z, INFO] 1  Total worked hours   1146.0
+[2018-04-10T12:47:37Z, INFO] 2          objective_  25032.0
+[2018-04-10T12:47:37Z, INFO]      nurse_id  shift nurse_name shift_department  shift_day  shift_duration
+[2018-04-10T12:47:37Z, INFO] 0          20     25     Juliet        Emergency     Friday               4
+[2018-04-10T12:47:37Z, INFO] 1           3     35      Cathy        Emergency     Sunday               6
+[2018-04-10T12:47:37Z, INFO] 2          21     28       Kate     Consultation     Friday               4
+[2018-04-10T12:47:37Z, INFO] 3          13     32    Janelle        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 4           9      0        Dee        Emergency     Monday               6
+[2018-04-10T12:47:37Z, INFO] 5           1     28   Bethanie     Consultation     Friday               4
+[2018-04-10T12:47:37Z, INFO] 6          30     35     Wendie        Emergency     Sunday               6
+[2018-04-10T12:47:37Z, INFO] 7          28     10    Suzanne     Consultation    Tuesday               4
+[2018-04-10T12:47:37Z, INFO] 8           1     21   Bethanie        Emergency   Thursday               8
+[2018-04-10T12:47:37Z, INFO] 9          25     16   Patricia     Consultation  Wednesday               4
+[2018-04-10T12:47:37Z, INFO] 10          0     14       Anne        Emergency  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 11         29      4     Vickie     Consultation     Monday               4
+[2018-04-10T12:47:37Z, INFO] 12          3     17      Cathy     Consultation  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 13          2      7      Betsy        Emergency    Tuesday               4
+[2018-04-10T12:47:37Z, INFO] 14         31     27        Zoe        Emergency     Friday               8
+[2018-04-10T12:47:37Z, INFO] 15         19      1      Julie        Emergency     Monday               4
+[2018-04-10T12:47:37Z, INFO] 16         12     32       Jane        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 17          0     28       Anne     Consultation     Friday               4
+[2018-04-10T12:47:37Z, INFO] 18         27     20    Roberta        Emergency   Thursday               6
+[2018-04-10T12:47:37Z, INFO] 19         25      4   Patricia     Consultation     Monday               4
+[2018-04-10T12:47:37Z, INFO] 20         29     22     Vickie     Consultation   Thursday               4
+[2018-04-10T12:47:37Z, INFO] 21         19     32      Julie        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 22         18     32       Jude        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 23         10      5     Gloria     Consultation     Monday               6
+[2018-04-10T12:47:37Z, INFO] 24          0     19       Anne        Emergency   Thursday               4
+[2018-04-10T12:47:37Z, INFO] 25         15      6      Jemma        Emergency    Tuesday               6
+[2018-04-10T12:47:37Z, INFO] 26          3      4      Cathy     Consultation     Monday               4
+[2018-04-10T12:47:37Z, INFO] 27         28      4    Suzanne     Consultation     Monday               4
+[2018-04-10T12:47:37Z, INFO] 28         31      9        Zoe        Emergency    Tuesday               8
+[2018-04-10T12:47:37Z, INFO] 29         17      3      Joyce        Emergency     Monday               8
+[2018-04-10T12:47:37Z, INFO] ..        ...    ...        ...              ...        ...             ...
+[2018-04-10T12:47:37Z, INFO] 168        26     29    Patrick     Consultation     Friday               6
+[2018-04-10T12:47:37Z, INFO] 169        24      5     Nicole     Consultation     Monday               6
+[2018-04-10T12:47:37Z, INFO] 170         7      1      David        Emergency     Monday               4
+[2018-04-10T12:47:37Z, INFO] 171        20     31     Juliet        Emergency   Saturday               8
+[2018-04-10T12:47:37Z, INFO] 172        17     22      Joyce     Consultation   Thursday               4
+[2018-04-10T12:47:37Z, INFO] 173        12     35       Jane        Emergency     Sunday               6
+[2018-04-10T12:47:37Z, INFO] 174        24     12     Nicole        Emergency  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 175        14      3     Janice        Emergency     Monday               8
+[2018-04-10T12:47:37Z, INFO] 176         1     30   Bethanie        Emergency   Saturday              10
+[2018-04-10T12:47:37Z, INFO] 177        13     22    Janelle     Consultation   Thursday               4
+[2018-04-10T12:47:37Z, INFO] 178         2     29      Betsy     Consultation     Friday               6
+[2018-04-10T12:47:37Z, INFO] 179        15     32      Jemma        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 180         6     17      Cindy     Consultation  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 181        17     15      Joyce        Emergency  Wednesday               8
+[2018-04-10T12:47:37Z, INFO] 182        21      1       Kate        Emergency     Monday               4
+[2018-04-10T12:47:37Z, INFO] 183         8     10     Debbie     Consultation    Tuesday               4
+[2018-04-10T12:47:37Z, INFO] 184         9     11        Dee     Consultation    Tuesday               6
+[2018-04-10T12:47:37Z, INFO] 185         8     16     Debbie     Consultation  Wednesday               4
+[2018-04-10T12:47:37Z, INFO] 186         0     34       Anne        Emergency     Sunday               8
+[2018-04-10T12:47:37Z, INFO] 187        31     10        Zoe     Consultation    Tuesday               4
+[2018-04-10T12:47:37Z, INFO] 188        21     32       Kate        Emergency   Saturday               6
+[2018-04-10T12:47:37Z, INFO] 189        31     16        Zoe     Consultation  Wednesday               4
+[2018-04-10T12:47:37Z, INFO] 190         8     23     Debbie     Consultation   Thursday               6
+[2018-04-10T12:47:37Z, INFO] 191        26     16    Patrick     Consultation  Wednesday               4
+[2018-04-10T12:47:37Z, INFO] 192        19     25      Julie        Emergency     Friday               4
+[2018-04-10T12:47:37Z, INFO] 193        15     17      Jemma     Consultation  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 194        13      1    Janelle        Emergency     Monday               4
+[2018-04-10T12:47:37Z, INFO] 195        11     17   Isabelle     Consultation  Wednesday               6
+[2018-04-10T12:47:37Z, INFO] 196        29     24     Vickie        Emergency     Friday               6
+[2018-04-10T12:47:37Z, INFO] 197         3     29      Cathy     Consultation     Friday               6
+[2018-04-10T12:47:37Z, INFO] 
+[2018-04-10T12:47:37Z, INFO] [198 rows x 6 columns]
