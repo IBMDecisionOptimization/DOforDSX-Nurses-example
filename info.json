@@ -3,7 +3,7 @@
 	"name":  "DO for DSX Nurses example" ,
 	"model": [ "CPLEX" ],
 	"development": [ "Python" ],
-	"category": [ {"DOforDSX":["DO for DSX"]} ],
+	"category": [ {"DOforWS":["DO for WS"]} ],
 	"industry": [ "Health" ],
 	"abstract": "According to the expected demand for different hospital departments, nurses are assigned to shifts."
 }
