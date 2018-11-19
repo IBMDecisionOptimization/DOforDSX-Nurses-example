@@ -438,7 +438,7 @@ def build_solution(solution):
     for k,v in assigned_vars.iteritems():
         if v._get_solution_value(solution) >= 0.5:
             k2 = deepcopy(k)
-            k2 = k2 + (df_nurses.get_value(k[0], 'name'),)
+            k2 = k2 + (k[0],)
             k2 = k2 + (df_shifts.get_value(k[1], 'department'),)
             k2 = k2 + (df_shifts.get_value(k[1], 'day'),)
             k2 = k2 + ( ((df_shifts.get_value(k[1], 'end_time') - df_shifts.get_value(k[1], 'start_time')) % 24 ) ,)
@@ -451,7 +451,7 @@ def build_solution(solution):
     report["shift_assignments"] = report_df
     return report
 #dd-cell
-mdl.solution_hook = build_solution
+#mdl.solution_hook = build_solution
 #dd-cell
 # Set Cplex mipgap to 1e-5 to enforce precision to be of the order of a unit (objective value magnitude is ~1e+5).
 mdl.parameters.mip.tolerances.mipgap = 1e-5
